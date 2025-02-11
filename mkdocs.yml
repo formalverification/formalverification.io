@@ -1,0 +1,95 @@
+site_name: Formal Verification
+site_url: https://formalverification.io
+
+theme: 
+  name: material
+  features:
+    - content.tooltips
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: black
+      accent: red
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+  font:
+    text: Merriweather Sans
+    code: Source Code Pro
+
+  logo: img/cardano_we_logos/PNG/Cardano-RGB_Logo-Full-White.png
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+  - pymdownx.tabbed:
+      alternate_style: true  
+  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+        - includes/external-links.md
+  - toc:
+      permalink: "#"
+
+
+watch:
+  - includes
+nav:
+  - Home: index.md
+
+  - Formal Ledger Spec:
+    - Introduction: cardano-ledger/intro.md
+    - Byron: cardano-ledger/byron.md
+    - Shelley: cardano-ledger/shelley.md
+    - Mary: cardano-ledger/mary.md
+    - Alonzo: cardano-ledger/alonzo.md
+    - Conway: cardano-ledger/conway.md
+
+  - MkDocs doc:
+    - MkDocs: mkdocs.md
+    - Admonitions: mkdocs/admonitions.md
+    - Diagrams: mkdocs/diagrams.md
+    - Code blocks: mkdocs/code-blocks.md
+    - Content tabs: mkdocs/content-tabs.md
+    
+  - About:
+    - Contributors: contributors.md  
+    - License: license.md
+
+plugins:
+  - search
+
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/IntersectMBO/formal-ledger-specifications
+
