@@ -68,7 +68,8 @@ nav:
   - Formal Ledger Spec:
     - Introduction: cardano-ledger/intro.md
     - Byron: cardano-ledger/byron.md
-    - Shelley: cardano-ledger/shelley.md
+    - Shelley:
+        - Introduction: cardano-ledger/shelley/intro.md
     - Mary: cardano-ledger/mary.md
     - Alonzo: cardano-ledger/alonzo.md
     - Conway: cardano-ledger/conway.md
