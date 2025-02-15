@@ -1,6 +1,77 @@
 site_name: Formal Verification
 site_url: https://formalverification.io
 
+nav:
+  - Home: index.md
+
+  - PhD Exams:
+    - Algebra:
+      - Groups: 
+        - 1993 Nov: exams/groups/1993Nov.md
+        - 1993 Nov: exams/groups/1993Nov.md
+        - 1999 Mar: exams/groups/1999Mar.md
+        - 2000 Nov: exams/groups/2000Nov10.md
+        - 2002 Nov: exams/groups/2002Nov.md
+        - 2003 Nov: exams/groups/2003Nov.md
+        - 2004 Nov: exams/groups/2004Nov.md
+        - 2006 Apr: exams/groups/2006Apr.md
+        - 2006 Nov: exams/groups/2006Nov.md
+        - 2007 Apr: exams/groups/2007Apr.md
+        - 2008 Jan: exams/groups/2008Jan.md
+        - 2008 Apr: exams/groups/2008Apr.md
+      - Rings:
+        - 1991 Nov: exams/real/1991Nov21.md
+        - 1994 Nov: exams/real/1994Nov16.md
+        - 1998 Apr: exams/real/1998Apr03.md
+        - 2000 Nov: exams/real/2000Nov17.md
+        - 2001 Nov: exams/real/2001Nov26.md
+        - 2004 Apr: exams/real/2004Apr19.md
+        - 2007 Nov: exams/real/2007Nov16.md
+      - Fields: exams/fields/index.md
+      - Linear Algebra: exams/linear-algebra/index.md
+    - Analysis:
+      - Real:
+        - 1991 Nov: exams/real/1991Nov21.md
+        - 1994 Nov: exams/real/1994Nov16.md
+        - 1998 Apr: exams/real/1998Apr03.md
+        - 2000 Nov: exams/real/2000Nov17.md
+        - 2001 Nov: exams/real/2001Nov26.md
+        - 2004 Apr: exams/real/2004Apr19.md
+        - 2007 Nov: exams/real/2007Nov16.md
+      - Complex:
+        - 1991 Apr: exams/complex/1991Apr.md
+        - 1991 Nov: exams/complex/1991Nov21.md
+        - 1995 Apr: exams/complex/1995Apr10.md
+        - 2001 Nov: exams/complex/2001Nov26.md
+        - 2002 Nov: exams/complex/2002Nov20.md
+        - 2003 Apr: exams/complex/2003Apr23.md
+        - 2003 Nov: exams/complex/2003Nov17.md
+        - 2004 Apr: exams/complex/2004Apr19.md
+        - 2006 Nov: exams/complex/2006Nov13.md
+        - 2007 Apr: exams/complex/2007Apr16.md
+        - 2007 Nov: exams/complex/2007Nov16.md
+
+  - Math Glossaries:
+    - Logic & Foundations:
+      - Models: models/model-theory-glossary.md
+    - Algebra:
+      - Groups: groups/group-theory-glossary.md
+      - Rings: rings/ring-theory-glossary.md
+      - Fields: fields/field-theory-glossary.md
+    - Analysis:
+      - Real: real/real-variables-glossary.md
+      - Complex: complex/complex-variable-glossary.md
+
+  - MkDocs doc:
+    - MkDocs: mkdocs.md
+    - Admonitions: mkdocs/admonitions.md
+    - Diagrams: mkdocs/diagrams.md
+    - Code blocks: mkdocs/code-blocks.md
+    - Content tabs: mkdocs/content-tabs.md
+    
+  - About:
+    - License: license.md
+
 theme: 
   name: material
   features:
@@ -48,7 +119,13 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-
+  - pymdownx.arithmatex:
+      generic: true
+      
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+      
   - pymdownx.tabbed:
       alternate_style: true  
   - pymdownx.snippets
@@ -62,28 +139,6 @@ markdown_extensions:
 
 watch:
   - includes
-nav:
-  - Home: index.md
-
-  - Formal Ledger Spec:
-    - Introduction: cardano-ledger/intro.md
-    - Byron: cardano-ledger/byron.md
-    - Shelley:
-        - Introduction: cardano-ledger/shelley/intro.md
-    - Mary: cardano-ledger/mary.md
-    - Alonzo: cardano-ledger/alonzo.md
-    - Conway: cardano-ledger/conway.md
-
-  - MkDocs doc:
-    - MkDocs: mkdocs.md
-    - Admonitions: mkdocs/admonitions.md
-    - Diagrams: mkdocs/diagrams.md
-    - Code blocks: mkdocs/code-blocks.md
-    - Content tabs: mkdocs/content-tabs.md
-    
-  - About:
-    - Contributors: contributors.md  
-    - License: license.md
 
 plugins:
   - search

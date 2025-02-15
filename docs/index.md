@@ -1,8 +1,5 @@
 # Welcome to Formal Verification
 
-<!-- [IOHK.io](https://iohk.io/) :rocket:
- -->
-
 
 <!-- ## Commands -->
 
