@@ -1,0 +1,2636 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://formalverification.io/exams/real/2007Nov16/">
+      
+      
+        <link rel="prev" href="../2004Apr19/">
+      
+      
+        <link rel="next" href="../../complex/1991Apr/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>2007 Nov - Formal Verification</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Source Code Pro"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2007-november-16" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Formal Verification" class="md-header__button md-logo" aria-label="Formal Verification" data-md-component="logo">
+      
+  <img src="../../../img/cardano_we_logos/PNG/Cardano-RGB_Logo-Full-White.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formal Verification
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2007 Nov
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Formal Verification" class="md-nav__button md-logo" aria-label="Formal Verification" data-md-component="logo">
+      
+  <img src="../../../img/cardano_we_logos/PNG/Cardano-RGB_Logo-Full-White.png" alt="logo">
+
+    </a>
+    Formal Verification
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PhD Exams
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            PhD Exams
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Algebra
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Algebra
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Groups
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Groups
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/1993Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1993 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/1993Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1993 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/1999Mar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1999 Mar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2000Nov10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2000 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2002Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2002 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2003Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2003 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2004Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2006Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2006 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2006Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2006 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2007Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2008Jan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2008 Jan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2008Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2008 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_2" id="__nav_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Rings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1991Nov21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1994Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1994 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1998Apr03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1998 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2000Nov17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2000 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2001Nov26/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2004Apr19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2007-november-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      2007 November 16
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fields/index.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fields
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../linear-algebra/index.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linear Algebra
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Analysis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Analysis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_1" id="__nav_2_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Real
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Real
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1991Nov21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1994Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1994 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1998Apr03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1998 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2000Nov17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2000 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2001Nov26/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2004Apr19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2007-november-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      2007 November 16
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Complex
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Complex
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/1991Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/1991Nov21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/1995Apr10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1995 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2001Nov26/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2002Nov20/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2002 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2003Apr23/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2003 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2003Nov17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2003 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2004Apr19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2006Nov13/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2006 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2007Apr16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../complex/2007Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Math Glossaries
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Math Glossaries
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Logic & Foundations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Logic & Foundations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../models/model-theory-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Models
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Algebra
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Algebra
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../groups/group-theory-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Groups
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rings/ring-theory-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fields/field-theory-glossary.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fields
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Analysis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Analysis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../real/real-variables-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Real
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../complex/complex-variable-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Complex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MkDocs doc
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            MkDocs doc
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/admonitions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admonitions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/code-blocks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/content-tabs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Content tabs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2007-november-16" class="md-nav__link">
+    <span class="md-ellipsis">
+      2007 November 16
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>2007 Nov</h1>
+
+<p>+++
+title = "Real Analysis Exam"
+description = "A part of the phd exam in analysis"
+date = 2007-11-16
++++</p>
+<h2 id="2007-november-16">2007 November 16</h2>
+<!-- This was the exam I passed.  I was asked to re-write solutions to problems 1, 2, 4, and a modified (harder/more general) version of problem 6. -->
+
+<p><strong>Notation.</strong> <span class="arithmatex">\(\mathbb R\)</span> is the set of real numbers and <span class="arithmatex">\(\mathbb R^n\)</span> is <span class="arithmatex">\(n\)</span>-dimensional Euclidean space.  Denote by <span class="arithmatex">\(m\)</span> Lebesgue measure on <span class="arithmatex">\(\mathbb R\)</span> and <span class="arithmatex">\(m_n\)</span> <span class="arithmatex">\(n\)</span>-dimensional Lebesgue measure. Be sure to give a <em>complete statement</em> of any theorems from analysis that you use in your proofs below. </p>
+<ol>
+<li>
+<p>Let <span class="arithmatex">\(\mu\)</span> be a positive measure on a measure space <span class="arithmatex">\(X\)</span>.  Assume that <span class="arithmatex">\(E_1, E_2, \dots\)</span> are measurable subsets of <span class="arithmatex">\(X\)</span> with the property that for <span class="arithmatex">\(n\neq m, \mu(E_n\cap E_m) = 0\)</span>.  Let <span class="arithmatex">\(E\)</span> be the union of these sets.  Prove that <span class="arithmatex">\(\mu(E) = \sum\_{n=1}^\infty \mu(E\_n)\)</span>.</p>
+</li>
+<li>
+<p>(a) State a theorem that illustrates Littlewood's Principle for pointwise a.e. convergence of a sequence of functions on <span class="arithmatex">\(\mathbb R\)</span>.\
+   (b) Suppose that <span class="arithmatex">\(f_n \in L^1(m)\)</span> for <span class="arithmatex">\(n=1,2,\dots\)</span>. Assuming that <span class="arithmatex">\(\\|f\_n-f\\|\_1 \to 0\)</span> and <span class="arithmatex">\(f_n \to g\)</span> a.e. as <span class="arithmatex">\(n\to \infty\)</span>, what relation exists between <span class="arithmatex">\(f\)</span> and <span class="arithmatex">\(g\)</span>?  Make a conjecture and then prove it using the statement in Part (a).</p>
+</li>
+</ol>
+<!-- \index{Egoroff's theorem!problems|(}   -->
+
+<ol>
+<li>
+<p>Let <span class="arithmatex">\(K\)</span> be a compact subset in <span class="arithmatex">\(\mathbb R^3\)</span> and let <span class="arithmatex">\(f(x) = \mbox{dist}(x,K)\)</span>.\
+   (a) Prove that <span class="arithmatex">\(f\)</span> is a continuous function and that <span class="arithmatex">\(f(x) = 0\)</span> if and only if <span class="arithmatex">\(x\in K\)</span>.\
+   (b) Let <span class="arithmatex">\(g = \max \\{1-f, 0\\}\)</span> and prove that <span class="arithmatex">\(\lim\_{n\to \infty} \iiint g^n\)</span> exists and is equal to <span class="arithmatex">\(m_3(K)\)</span>.</p>
+</li>
+<li>
+<p>Let <span class="arithmatex">\(E\)</span> be a Borel subset of <span class="arithmatex">\(\mathbb R^2\)</span>.\
+   (a) Explain what this means.\
+   (b) Suppose that for every real number <span class="arithmatex">\(t\)</span> the set <span class="arithmatex">\(E_t = \\{(x,y) \in E \mid x=t\\}\)</span> is finite.  Prove that <span class="arithmatex">\(E\)</span> is a Lebesgue null set.</p>
+</li>
+<li>
+<p>Let <span class="arithmatex">\(\mu\)</span> and <span class="arithmatex">\(\nu\)</span> be finite positive measures on the measurable space <span class="arithmatex">\((X,\mathcal A)\)</span> such that <span class="arithmatex">\(\nu \ll \mu \ll \nu\)</span>, and let <span class="arithmatex">\(d\nu/d(\mu + \nu)\)</span> denote the Radon-Nikodym derivative of <span class="arithmatex">\(\nu\)</span> with respect to <span class="arithmatex">\(\mu+\nu\)</span>.  Show that 
+<span class="arithmatex">\(<span class="arithmatex">\(0 &lt; \frac{d\nu}{d(\mu + \nu)} &lt; 1 \quad \text{a.e.} [\mu].\)</span>\)</span>
+  <!-- \index{Radon-Nikodym!problems} -->
+</p>
+</li>
+<li>
+<p>Suppose that <span class="arithmatex">\(1 &lt; p &lt; \infty\)</span> and <span class="arithmatex">\(q = p/(p-1)\)</span> and let <span class="arithmatex">\(a_1, a_2, \dots\)</span> be a sequence of real numbers for which the series <span class="arithmatex">\(\sum a_n b_n\)</span> converges for all real sequences <span class="arithmatex">\(\{b_n\}\)</span> satisfying the condition <span class="arithmatex">\(\sum |b_n|^q &lt; \infty\)</span>.\
+   (a) Prove that <span class="arithmatex">\(\sum |a_n|^p &lt; \infty\)</span>.\
+   (b) Discuss the cases of <span class="arithmatex">\(p=1\)</span> and <span class="arithmatex">\(p=\infty\)</span>.  Prove your assertions.</p>
+</li>
+</ol>
+<!-- On the original exam this question asked only about the special case $p=q=2$. -->
+
+<!-- 
+SOLUTION 1.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      Define $F_1 = E_1, \, F_2 = E_2 \setminus E_1,\, F_3 = E_3 \setminus (E_1 \cup
+      E_2), \dots $, and, in general, 
+      \[
+      F_n = E_n \setminus \bigcup_{i=1}^{n-1} E_i \quad (n=2, 3, \dots).
+      \]
+      If $\sigM$ is the \sigalg\ of $\mu$-measurable subsets of $X,$ then
+      $F_n\in \sigM$ for each $n\in \N,$ since $\sigM$ is a \sigalg.  
+      Also, $F_i\cap F_j = \emptyset$ for $i\neq j$, and 
+      $F_1\cup F_2 \cup \cdots \cup F_n = E_1\cup E_2 \cup \cdots \cup E_n$ 
+      for all $n\in \N$. Thus,
+      \[
+      \bigcup_{n=1}^\infty F_n = \bigcup_{n=1}^\infty E_n \triangleq E,
+      \]
+      and, by $\sigma$-additivity of $\mu$, 
+      \[
+      \mu(E) = \mu(\bigcup_{n=1}^\infty F_n) = \sum_{n=1}^\infty \mu(F_n).
+      \]
+      Therefore, if we can show $\mu(E_n) = \mu(F_n)$ holds for all $n\in \N$,
+      the proof will be complete.  
+
+      Now,  for each $n = 2, 3, \dots$,
+      \begin{equation}
+        \label{eq:2007-11-1a}
+        F_n = E_n \cap (\bigcup_{i=1}^{n-1}E_i)^c
+      \end{equation}
+      and
+      \begin{equation}
+        \label{eq:2007-11-1b}
+        \mu(E_n) = \mu(E_n \cap (\bigcup_{i=1}^{n-1}E_i)^c) + \mu(E_n \cap
+        (\bigcup_{i=1}^{n-1}E_i)).
+      \end{equation}
+      Equation (\ref{eq:2007-11-1b}) holds because
+      $\bigcup_{i=1}^{n-1}E_i$ is a measurable set for each $n = 2, 3, \dots$. 
+      Finally, note that
+      \[
+      E_n \cap (\bigcup_{i=1}^{n-1}E_i) =    \bigcup_{i=1}^{n-1}(E_n\cap E_i),
+      \]
+      which implies 
+      \[
+      \mu(E_n \cap (\bigcup_{i=1}^{n-1}E_i)) \leq \sum_{i=1}^{n-1}\mu(E_n\cap E_i),
+      \]
+      by $\sigma$-subadditivity.  By assumption, each term in the last sum is zero, and
+      therefore, by (\ref{eq:2007-11-1a}) and~(\ref{eq:2007-11-1b}),
+      \[
+      \mu(E_n) = \mu(E_n \cap (\bigcup_{i=1}^{n-1}E_i)^c)  = \mu(F_n) \quad \text{holds
+        for each $n=2, 3, \dots$}.
+      \]
+      For $n=1$, we have $F_1 = E_1$, by definition.  This completes the proof.
+      \qed
+    \end{solution}  }{}
+
+  \pspace 
+
+
+
+SOLUTION 2.
+
+\ifthenelse{\boolean{includeSolutions}}{\begin{solution}~\\
+      {\bf (a)} I think it's generally accepted that the Littlewood principle dealing with
+      a.e.~convergence of a sequence of functions on $\mathbb R$ is Egoroff's theorem, which is
+      stated below in section \ref{thm:egoroff}.\\[6pt]
+      {\bf (b)} {\it Conjecture:} $f = g$ a.e.\\[6pt]
+      {\it Proof 1}:\footnote{Note that {\it Proof 1}, which
+        seems to me the more natural one, doesn't use Egoroff's theorem, so
+        either the examiners were looking for a different proof, or a different
+        conjecture, or perhaps Egoroff's theorem was not the Littlewood principle they
+        had in mind.  In any event, I have found a way to prove the conjecture
+        which does make use of Egoroff's theorem, and this appears here as {\it Proof 2}.}
+      First recall %the easily proved, yet important theorem which states 
+      that $L^1$ convergence implies convergence in measure. That is, if 
+      $\{f_n\} \subset L^1(m)$ and $\|f_n-f\|_1 \to 0$, then $f_n 
+      \to f$ in measure. (Proof: 
+      $m(\{x:|f_n(x) - f(x)| >\epsilon\}) \leq \frac{1}{\epsilon}\|f_n-f\|_1 \to
+      0.$) Next recall another important theorem\footnote{Folland~\cite{Folland:1999},
+        theorem 2.30 and its corollary.} which states that if $f_n\to f$ in measure
+      then there is a subsequence $\{f_{n_j}\} \subseteq \{f_n\}$ which converges a.e.~to $f$
+      as $j\to \infty$.  Combining these two results in the
+      present context (Lebesgue measure on the real line), we can say the
+      following:\footnote{Perhaps this statement is the version of the Littlewood principle
+        dealing with a.e.~convergence that we were meant to cite in part (a).}
+      If $\{f_n\} \subset L^1(m)$ and $\|f_n-f\|_1\to 0$ then there is a
+      subsequence $\{f_{n_j}\} \subseteq \{f_n\}$ with the property $f_{n_j}(x)
+      \to f(x)$ for almost all $x\in \mathbb R$.
+
+      Now, if $f_n(x)\to g(x)$ for almost all $x\in \mathbb R$, and if $B_1$ be the set
+      of measure zero where $f_n(x) \nrightarrow g(x)$, then off of $B_1$ the sequence
+      $f_n$, as well as every subsequence of $f_n$, converges to $g$. 
+      Let $\{f_{n_j}\}$ be the subsequence mentioned above which converges to $f$ almost
+      everywhere.  Then  
+      \begin{equation}
+        \label{eq:2007-2-1}
+        |f(x) - g(x)| \leq 
+        |f(x) - f_{n_j}(x)|+
+        |f_{n_j}(x) - g(x)|.
+      \end{equation}
+      Define $B_2 = \{x\in \mathbb R:f_{n_j}(x) \nrightarrow f(x)\}$.  Then the set $B = B_1 \cup
+      B_2$ has measure zero and, for all $x\in $\mathbb R$setminus B$, 
+      $f_{n_j}(x)\to f(x)$ and $f_{n_j}(x)\to g(x)$ .  
+      Therefore, by (\ref{eq:2007-2-1}), $|f(x) -g(x)| = 0$ for
+      all $x\in $\mathbb R$setminus B$. It follows that the set
+      $\{x\in \mathbb R:f_(x) \neq g(x)\} \subset B$, as a subset of a null set, must itself be a
+      null set (since $m$ is complete). 
+      That is, $f = g$ a.e.~and the conjecture is proved.
+      \qed~\\[2pt]
+      {\it Proof 2:}
+      First, we claim that if $f = g$ a.e.~on $[-n,n]$ for every $n\in \N$, then
+      $f=g$ a.e.~in \mathbb R.  To see this, let $B_n = \{x\in [-n,n]: f(x) \neq g(x)\}$.  Then
+      $mB_n = 0$ for all $n\in \N$, so that if $B = \{x\in \mathbb R:f(x) \neq g(x)\}$, then $B =
+      \cup B_n$ and $mB \leq \sum m B_n = 0$, as claimed.
+      Thus, to prove the conjecture, it is enough to show that $f = g$ for almost every
+      $-n \leq x \leq n$, for an arbitrary fixed $n\in \N$.
+
+      Fix $n\in \N$, and suppose we know that $f - g \in L^1([-n,n], m)$. 
+      (This will follow from the fact that $f, g \in L^1([-n,n],m)$, 
+      which we prove below.)  Then, for all $\epsilon >0$ there is a
+      $\delta >0$ such that $\int_E |f-g|\, dm < \epsilon$ for all measurable $E\subseteq
+      [-n,n]$ with $mE < \delta$.  Now apply Egoroff's theorem to find a set $A \subseteq [-n,n]$
+      such that $m([-n,n]\setminus A)< \delta$ and $f_n\to g$ uniformly on $A$. Then 
+      \begin{align*}
+        \int_{-n}^n |f-g|\, dm &= 
+        \int_{[-n,n]\setminus A} |f-g|\, dm + \int_{A} |f-g|\, dm \\
+        &\leq \epsilon + \int_{A} |f-f_n|\, dm + \int_{A} |f_n-g|\, dm \\
+        &\leq \epsilon + \|f-f_n\|_1 + mA\, \sup_{x\in A}|f_n(x)-g(x)|,
+      \end{align*}  
+      where $\|f-f_n\|_1\to 0$, by assumption, and 
+      $\sup_{x\in A}|f_n(x)-g(x)| \to 0$ 
+      since $f_n\to g$ uniformly on $A$. 
+      Since $\epsilon >0$ was arbitrary, it
+      follows that $\int_{-n}^n |f - g| \, dm = 0$ and, for functions
+      $f, g \in L^1([-n,n],m)$, this implies that $f = g$ a.e.~on $[-n,n]$.
+
+      It remains to show that $f, g \in L^1([-n,n],m)$.  It's clear that $f\in L^1$ since
+      $\|f\|_1 \leq \|f - f_n\|_1 + \|f_n\|_1 < \infty$.  To prove $g \in L^1([-n,n],m)$
+      note that $f_n \xrightarrow{a.e.} g$ implies 
+      $\lim_n |f_n(x)| =|g(x)|$ for almost all $x$, so by Fatou's lemma,
+      \[
+      \|g\|_1 = \int |g|\, dm = \int \varliminf |f_n| \, dm \leq \varliminf \int |f_n| \,
+      dm = \lim \|f_n\|_1 = \|f\|_1 < \infty.
+      \]
+      The last equality holds because, by the triangle inequality,
+      $\left| \|f_n\|_1 - \|f\|_1 \right| \leq \|f_n - f\|_1 \to 0$.
+      \qed
+      \index{Egoroff's theorem!problems|)}
+    \end{solution}  }{}
+
+  \pspace 
+
+SOLUTION 3.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      {\bf (a)} Define $\mbox{dist}(x,K) = f(x) = \inf_{k\in K} |x-k|$.
+      Clearly, for all $k\in K$, 
+      % $d(x,K) \leq |x-k|$.  Therefore, 
+      $f(x) \leq |x-k|$.  Therefore, 
+      by the triangle inequality, for any $x, y\in \mathbb R^3$, 
+      \[
+      % d(x,K) \leq |x-y|+|y-k|, \quad \forall k\in K,
+      f(x) \leq |x-y|+|y-k|, \quad \forall k\in K,
+      \]
+      and so, taking the infimum over $k\in K$ on the right,
+      \begin{equation}
+        \label{eq:2007-3-1}
+        % d(x,K) \leq |x-y|+d(y,K).  
+        f(x) \leq |x-y|+f(y).  
+      \end{equation}
+      Similarly,
+      \begin{equation}
+        \label{eq:2007-3-2}
+        % d(y,K) \leq |x-y|+d(x,K).
+        f(y) \leq |x-y|+f(x).
+      \end{equation}
+      Obviously, for any given $x\in \mathbb R^3$,
+      % $d(x,K)$ 
+      $f(x)$ is finite. 
+      Therefore, (\ref{eq:2007-3-1}) and (\ref{eq:2007-3-2}) together imply that
+      \[
+      % |d(x,K)-d(y,K)| \leq |x-y|.
+      |f(x)-f(y)| \leq |x-y|, \quad \forall\, x, y \in \mathbb R^3.
+      \]
+      Whence $f$ is (Lipschitz) continuous. 
+
+      Now, if $x\in K$, then it's clear that $f(x) = 0$. Suppose $x \notin K$; that is, $x$
+      is in the complement $K^c$ of $K$.  Since $K$ is closed, $K^c$ is open and we can find an
+      $\epsilon$-neighborhood about $x$ fully contained in $K^c$, in which case 
+      $f(x) > \epsilon$.  We have thus proved that $f(x) = 0$ if and only if $x\in K$.
+      \qed~\\[4pt]
+      \index{dominated convergence theorem!applied}
+      {\bf (b)} First observe that $f(x)=0$ for all $x\in K$, and 
+      $f(x)>0$ for all $x\notin K$.  Define $K_1$ to be a closed and bounded set containing
+      $K$ on which $f(x) \leq 1$.  That is, $K_1$ is the set of points that are a
+      distance of not more than 1 unit from the set $K$.  In particular $K \subset K_1$.
+      Notice that $g = \max(1-f,0) = (1-f)\chi_{K_1}$. Also, if $x\in
+      K_1\setminus K$, then $0\leq 1-f(x) < 1$, so $g^n\to 0$ on the set $K_1
+      \setminus K$, while on the set $K$, $g^n = 1$ for all $n\in \N$.  Therefore, $g^n
+      \to \chi_K$.  Finally, note that $g^n \leq \chi_{K_1}\in L^1(\mathbb R^3)$ so the
+      dominated convergence theorem can be applied to yield
+      $\lim_{n\to \infty} \iiint g^n
+      = \iiint \chi_K = m_3(K).$
+      \qed
+    \end{solution}  }{}
+
+%  \ifthenelse{\boolean{newpagebetweenexams}}{\newpage}{\btwnexamspace}
+\pspace
+
+SOLUTION 4.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}~\\
+      {\bf (a)} The \emph{Borel} $\sigma$\emph{-algebra} of $\mathbb R^2$, which we denote by
+      \index{Borel $\sigma$-algebra}
+      $\borel(\mathbb R^2)$, is the smallest $\sigma$-algebra that contains the
+      open subsets of $\mathbb R^2$.  
+      \index{Borel set}
+      The sets belonging to $\borel(\mathbb R^2)$ are called \emph{Borel subsets} of
+      $\mathbb R^2$.\\[4pt]
+      {\bf (b)} First observe that if $G$ is a finite subset of $\mathbb R$, then $G$ is a Lebesgue
+      null set.  That is, $mG = 0$.  In fact, it is easy to prove that if $G$ is any
+      countable subset, then $mG = 0$. (Just fix $\epsilon >0$ and
+      cover each point $x_n \in G$ with a set $E_n$ of measure less than 
+      $\epsilon 2^{-n}$.  Then $mG \leq \sum mE_n < \epsilon$.)
+
+      In problems involving 2-dimensional Lebesgue measure, distinguishing $x$ and $y$
+      coordinates sometimes clarifies things. To wit, let
+      $(X, \borel(X), \mu) = (Y, \borel(Y), \nu)$
+      be two identical copies of the measure space 
+      $(\mathbb R, \borel(\mathbb R), m)$, and represent Lebesgue measure on $\mathbb R^2$ by\footnote{The
+        notation $\borel(X)\otimes \borel(Y)$ denotes the $\sigma$-algebra 
+        generated by all sets $A \times B \subseteq X\times Y$ with $A \in \borel(X)$
+        and $B\in \borel(Y)$. See~\ref{sec:fubini-tonelli}. 
+        % \NTS{} 
+        In this case, $\borel(X)\otimes \borel(Y)$ is the same as
+        $\borel(\mathbb R^2)$.} 
+      % (In general, the direct product of all sets from $\borel(X)$ with all sets from
+      % $\borel(Y)$ does not form a $\sigma$-algebra.)  Of course, $\mu \times \nu$ denotes
+      % the product measure on this $\sigma$-algebra.} 
+      % 
+      $(X\times Y, \borel(X)\otimes \borel(Y), \mu \times \nu) =(\mathbb R^2,\borel(\mathbb R^2), m_2)$.
+      % $(X\times Y, \borel(\mathbb R^2), \mu \times \nu) = (\mathbb R^2, \borel(\mathbb R^2), m_2)$.
+
+      Our goal is to prove that $m_2 E = 0$.  First note that 
+      \[
+      m_2 E = (\mu\times \nu)(E) = \int_{X\times Y} \chi_E \, d(\mu\times \nu).
+      \]
+      The integrand $\chi_E$ is non-negative and measurable (since $E$ is Borel).
+      Therefore, by Tonelli's theorem~(\ref{thm:Fubini}),
+      \begin{equation}
+        \label{eq:200711-4-1}
+        m_2 E = \int_Y \int_X \chi_E(x,y) \, d\mu(x)\, d\nu(y)
+        = \int_X \int_Y \chi_E(x,y) \, d\nu(y) \, d\mu(x).
+      \end{equation}
+      Now, let 
+      \[
+      G_t = \{y\in \mathbb R: (x,y)\in E \text{ and } x=t\}.
+      \]
+      This is the so called ``$x$-section'' of $E$ at the point $x=t$.  It is a subset
+      of $\mathbb R$, but we can view it as a subset of $\mathbb R^2$ by simply identifying each
+      point $y\in G_t$ with the point $(t,y) \in E_t = \{(x,y)\in E: x = t\}$.
+      It follows that, for each $t\in \mathbb R$, $G_t$ is a finite subset of $\mathbb R$.
+      Therefore, $m G_t = 0$.  Finally, by~(\ref{eq:200711-4-1}),
+      \[
+      m_2 E = \int_X \int_Y \chi_{G_t}(y) \, d\nu(y) \, d\mu(t)
+      = \int_X \nu G_t \, d\mu(t) = 0.
+      \]
+      since $\nu G_t \triangleq m G_t = 0$.
+      \qed
+    \end{solution}  }{}
+
+  \pspace 
+
+SOLUTION 5.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      First note that $\nu \ll \mu$ implies $\nu \ll \mu+ \nu$, so, by the
+      Radon-Nikodym theorem~(\ref{thm:radon-nikodym}), there is a unique 
+      $f\in L^1(\mu+\nu)$ such that 
+      \[
+      \nu(E) = \int_E f \, d(\mu+\nu) \quad \forall E\in \sigA.
+      \]
+      Indeed, $f$ is the Radon-Nikodym derivative; \ie 
+      $f = \frac{d\nu}{d(\mu + \nu)}$.  
+      We want to show $0 < f(x) < 1$ holds for $\mu$-almost every $x\in X$.
+      Since we're dealing with positive measures, we can assume $f(x)\geq 0$ for all
+      $x\in X$.
+
+      If $B_0 = \{x\in X: f(x) = 0\}$, then 
+      \[
+      \nu(B_0) = \int_{B_0} f \, d(\mu+\nu) = 0.
+      \]
+      Therefore, $\mu(B_0) = 0$, since $\mu \ll \nu$, which proves that $f(x) > 0$, $[\mu]$-a.e.  
+
+      If $B_1 = \{x\in X: f(x) \geq 1\}$, then 
+      \[
+      \nu(B_1) = \int_{B_1} f \, d(\mu+\nu) \geq 
+      (\mu+\nu)(B_1) = \mu(B_1)+\nu(B_1).
+      \]
+      Since $\nu$ is finite by assumption, we can subtract $\nu(B_0)$ from both sides
+      to obtain $\mu(B_1) = 0$.  This proves $f(x) < 1$, $[\mu]$-a.e.  
+      \qed
+    \end{solution}  }{}
+
+  \pspace
+
+SOLUTION 6.
+     \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      {\bf (a)} For each $k\in \N$, define $T_k : \ell_q(\N) \to \mathbb R$ by $T_k(b) = \sum_{n=1}^k a_n b_n$, 
+      for $b\in \ell_q(\N)$.  Then  
+      $\{T_k\}$ is a family of pointwise bounded linear functionals.  
+      That is, each $T_k$ is a linear functional, and,
+      for each $b\in \ell_q(\N)$, there is an $M_b \geq 0$ such
+      that $|T_k(b)|\leq M_b$ holds for all $k\in \N$.  To see this, simply note that a
+      convergent sequence of real numbers is bounded, and, in the present case, we have
+      \[
+      S_k \triangleq \sum_{n=1}^k a_n b_n \mathbb Rightarrow \sum_{n=1}^\infty a_n b_n =x \in
+      \mathbb R. 
+      \]
+      Thus, $\{T_k(b)\} = \{S_k\}$ is a convergent sequence of reals, so, 
+      if $N\in \N$ is such that $k\geq N$ implies $|S_k - x| < 1$, and if 
+      $M_b'$ is defined to be $\max\{|S_k|: 1\leq k\leq N\}$, then, for any $k\in \N$,
+      \[
+      |T_k(b)| \leq M_b \triangleq \max\{ M_b', x+1\}.
+      \]
+
+      \index{Banach space!$\ell_p$}    
+      % \index{Banach-Steinhauss|see{uniform boundedness principle}}
+      \index{Banach-Steinhauss theorem}
+      \index{uniform boundedness principle}
+
+      Next note that $\ell_q$ is a Banach space, so the (Banach-Steinhauss) principle
+      of uniform boundedness implies that there is a single $M>0$ such that 
+      $\|T_k\| \leq M$ for all $k\in \N$.  In other words, 
+      \[
+      (\exists\, M>0) \, (\forall b\in \ell_q)\, (\forall k\in \N) \; |T_k(b)|\leq
+      M\|b\|.
+      \]
+      Define let $T(b) \triangleq \sum_{n=1}^\infty a_n b_n = \lim_{k\to \infty}
+      T_k(b)$, which exists by assumption.  Since $| \cdot |$ is continuous,
+      we conclude that $\lim_{k\to \infty}|T_k(b)| =
+      |T(b)|$. Finally, since $|T_k(b)| \leq M \|b\|$ for all $k\in \N$, we have 
+      $|T(b)| \leq M \|b\|$.  That is $T$ is a bounded linear functional on
+      $\ell_q(\N)$. 
+
+      \index{Riesz representation theorem|(}
+      Now, by the Riesz representation theorem, if $1\leq q < \infty$, then any bounded 
+      linear functional $T\in \ell_q^*$ is uniquely representable by some
+      $\alpha = (\alpha_1, \alpha_2, \dots) \in \ell_p$ as
+      \begin{equation}
+        \label{eq:RRT-20070601}
+        T(b) = \sum_{n=1}^\infty \alpha_n b_n.
+      \end{equation}    
+      On the other hand, by definition, 
+      $T(b) = \sum_{n=1}^\infty a_n b_n$, for all $b\in \ell_q$. Since the
+      representation in (\ref{eq:RRT-20070601}) is unique, $a = \alpha \in \ell_p$.
+      That is, $\sum_n |a_n|^p <\infty$. 
+      \qed~\\[4pt]
+      {\bf (b)} Consider the case $p=1$ and $q=\infty$.  First recall that the Riesz
+      representation theorem says that every $T \in \ell_q^* \, (1\leq q < \infty)$ is
+      uniquely representable by some $\alpha \in \ell_p$ (where $p = q/(q-1)$, 
+      so $1<p\leq \infty$).  That is $\ell_p$ is the dual of $\ell_q$, when 
+      $1\leq q<\infty$ and $p = q/(q-1)$.  However, in the present case we have
+      $q=\infty$ and $p=1$ and $\ell_1$ is \emph{not} the dual of
+      $\ell_\infty$. (Perhaps the easiest way to see this is to note that $\ell_1$ is
+      separable but $\ell_\infty$ is not.  For the collection of $a\in \ell_\infty$
+      such that $a_n\in \{0, 1\}, \,n\in \N$, is uncountable and, for any two distinct
+      such sequences $a, b\in \{0, 1\}^{\N}$, we have $\|a - b\|_\infty = 1$, so there
+      cannot be a countable base, so $\ell_\infty$ is not second countable, and a metric
+      space is separable iff it is second countable.)
+
+      So we can't use the same method of proof for this case.  However, I believe the
+      result still holds by the following simple argument: Define $b = (b_1, b_2, \dots)$ by 
+      \[
+      b_n = \mbox{sgn}(a_n) =
+      \begin{cases}
+        \bar{a}_n/|a_n|, & \text{ for $a_n\neq 0$,}\\
+        0, & \text{ for $a_n= 0$,}
+      \end{cases}\quad (n\in \N).
+      \]
+      Then
+      $\sum_n |a_n| = \sum_n a_n b_n$ converges by the hypothesis, since $|b_n| \in \{0, 1\}$ implies
+      $b\in \ell_\infty$.  Therefore, $a\in \ell_1$.\\[4pt]
+
+      Finally, in case $p=\infty$ and $q=1$, the Riesz representation theorem can be applied as
+      in part (a).
+      \qed
+      \index{Riesz representation theorem|)}
+    \end{solution}  }{}
+\end{enumerate}
+
+\pspace 
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../2004Apr19/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 2004 Apr">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                2004 Apr
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../complex/1991Apr/" class="md-footer__link md-footer__link--next" aria-label="Next: 1991 Apr">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                1991 Apr
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/IntersectMBO/formal-ledger-specifications" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../.."></script>
+      
+        <script src="../../../pymdownx.snippets"></script>
+      
+        <script src="../../.."></script>
+      
+        <script src="../../.."></script>
+      
+    
+  </body>
+</html>

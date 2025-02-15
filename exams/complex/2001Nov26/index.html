@@ -1,0 +1,2584 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://formalverification.io/exams/complex/2001Nov26/">
+      
+      
+        <link rel="prev" href="../1995Apr10/">
+      
+      
+        <link rel="next" href="../2002Nov20/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>2001 Nov - Formal Verification</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CSource+Code+Pro:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Source Code Pro"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2001-november-21" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Formal Verification" class="md-header__button md-logo" aria-label="Formal Verification" data-md-component="logo">
+      
+  <img src="../../../img/cardano_we_logos/PNG/Cardano-RGB_Logo-Full-White.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Formal Verification
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2001 Nov
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="deep-orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Formal Verification" class="md-nav__button md-logo" aria-label="Formal Verification" data-md-component="logo">
+      
+  <img src="../../../img/cardano_we_logos/PNG/Cardano-RGB_Logo-Full-White.png" alt="logo">
+
+    </a>
+    Formal Verification
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PhD Exams
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            PhD Exams
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Algebra
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Algebra
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Groups
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Groups
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/1993Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1993 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/1993Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1993 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/1999Mar/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1999 Mar
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2000Nov10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2000 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2002Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2002 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2003Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2003 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2004Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2006Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2006 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2006Nov/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2006 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2007Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2008Jan/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2008 Jan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../groups/2008Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2008 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_2" id="__nav_2_1_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Rings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/1991Nov21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/1994Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1994 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/1998Apr03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1998 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2000Nov17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2000 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2001Nov26/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2004Apr19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2007Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fields/index.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fields
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../linear-algebra/index.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linear Algebra
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Analysis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Analysis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_1" id="__nav_2_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Real
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Real
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/1991Nov21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/1994Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1994 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/1998Apr03/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1998 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2000Nov17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2000 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2001Nov26/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2004Apr19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real/2007Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Complex
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Complex
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1991Apr/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1991Nov21/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1991 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1995Apr10/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1995 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    2001 Nov
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2001-november-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2001 November 21
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2002Nov20/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2002 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2003Apr23/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2003 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2003Nov17/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2003 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2004Apr19/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2004 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2006Nov13/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2006 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2007Apr16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Apr
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2007Nov16/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2007 Nov
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Math Glossaries
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Math Glossaries
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Logic & Foundations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Logic & Foundations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../models/model-theory-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Models
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Algebra
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Algebra
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../groups/group-theory-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Groups
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../rings/ring-theory-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../fields/field-theory-glossary.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fields
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Analysis
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Analysis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../real/real-variables-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Real
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../complex/complex-variable-glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Complex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MkDocs doc
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            MkDocs doc
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/admonitions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admonitions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/diagrams/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Diagrams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/code-blocks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code blocks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mkdocs/content-tabs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Content tabs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2001-november-21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2001 November 21
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>2001 Nov</h1>
+
+<p>+++
+title = "Complex Analysis Exam"
+date = 2001-11-26
++++</p>
+<h2 id="2001-november-21">2001 November 21</h2>
+<p><strong>Instructions.</strong> Make a substantial effort on all parts of the following problems.  If you cannot completely answer Part (a) of a problem, it is still possible to do Part (b). Partial credit is given for partial progress.  Include as many details as time permits.  Throughout the exam, <span class="arithmatex">\(z\)</span> denotes a complex variable, and <span class="arithmatex">\(\mathbb C\)</span> denotes the complex plane.</p>
+<ol>
+<li>
+<p>(a) Suppose that <span class="arithmatex">\(f(z) = f(x+iy) = u(x,y) + i v(x,y)\)</span> where <span class="arithmatex">\(u\)</span> and <span class="arithmatex">\(v\)</span> are <span class="arithmatex">\(C^1\)</span> functions defined on a neighborhood of the closure of a bounded region <span class="arithmatex">\(G\subset \mathbb C\)</span> with boundary which is parametrized by a properly oriented, piecewise <span class="arithmatex">\(C^1\)</span> curve <span class="arithmatex">\(\gamma\)</span>.  If <span class="arithmatex">\(u\)</span> and <span class="arithmatex">\(v\)</span> obey the Cauchy-Riemann equations, show that Cauchy's theorem <span class="arithmatex">\(\int_\gamma f(z) \ dz = 0\)</span> follows from Green's theorem, namely <span class="arithmatex">\(<span class="arithmatex">\(\int_\gamma P\ dx + Q\ dy = \int_G  \left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\ dx\ dy,\)</span>\)</span> for <span class="arithmatex">\(C^1\)</span> functions <span class="arithmatex">\(P\)</span> and <span class="arithmatex">\(Q\)</span>.\
+   (b) Suppose that we do <em>not</em> assume that <span class="arithmatex">\(u\)</span> and <span class="arithmatex">\(v\)</span> are <span class="arithmatex">\(C^1\)</span>, but merely that <span class="arithmatex">\(u\)</span> and <span class="arithmatex">\(v\)</span> are continuous in <span class="arithmatex">\(G\)</span> and <span class="arithmatex">\(<span class="arithmatex">\(f'(z_0) = \lim_{z\rightarrow z_0} \frac{f(z) - f(z_0)}{z-z_0}\)</span>\)</span> exists at some (possibly only one!) point <span class="arithmatex">\(z_0 \in G\)</span>. Show that given any <span class="arithmatex">\(\epsilon &gt;0\)</span>, we can find a triangular region <span class="arithmatex">\(\Delta\)</span> containing <span class="arithmatex">\(z_0\)</span>, such that if <span class="arithmatex">\(T\)</span> is the boundary curve of <span class="arithmatex">\(\Delta\)</span>, then <span class="arithmatex">\(<span class="arithmatex">\(\left|\int_T f(z)\ dz\right| = \frac{\epsilon L^2}{2},\)</span>\)</span> where <span class="arithmatex">\(L\)</span> is the length of the perimeter of <span class="arithmatex">\(\Delta\)</span>. (Hint: Note that part (a) yields <span class="arithmatex">\(\int_T (az+b) \ dz =0\)</span> for <span class="arithmatex">\(a, b \in \mathbb C\)</span>, which you can use here in (b), even if you could not do Part (a). You may also use the fact that <span class="arithmatex">\(\left|\int_T g(z)\ dz\right|  \leq L \cdot \sup\\{|g(z)|:z\in T\\}\)</span> for <span class="arithmatex">\(g\)</span> continuous on <span class="arithmatex">\(T\)</span>.)
+   <!-- \index{Green's theorem} 
+   \index{Cauchy's theorem!proof by Green's theorem|(}  -->
+</p>
+</li>
+<li>
+<p>Give <em>two</em> quite different proofs of the Fundamental Theorem of Algebra that if a polynomial with complex coefficients has no complex zero, then it is constant.  You may use independent, well-known theorems and principles such as Liouville's Theorem, the Argument Principle, the Maximum Principle, Rouche's Theorem, and/or the Open Mapping Theorem.</p>
+</li>
+<li>
+<p>(a) State and prove the Casorati-Weierstrass Theorem concerning the image of any punctured disk about a certain type of isolated singularity of an analytic function.  You may use the fact that if a function <span class="arithmatex">\(g\)</span> is analytic and bounded in the neighborhood of a point <span class="arithmatex">\(z_0\)</span>, then <span class="arithmatex">\(g\)</span> has a removable singularity at <span class="arithmatex">\(z_0\)</span>.\
+   (b) Verify the Casorati-Weierstrass Theorem directly for a specific analytic function of your choice, with a suitable singularity.</p>
+</li>
+<li>
+<p>(a) Define <span class="arithmatex">\(\gamma : [0,2\pi] \rightarrow \mathbb C\)</span> by <span class="arithmatex">\(\gamma(t) = \sin (2t) + 2i \sin (t)\)</span>.  This is a parametrization of a "figure 8" curve, traced out in a regular fashion.  Find a meromorphic function <span class="arithmatex">\(f\)</span> such that <span class="arithmatex">\(\int_\gamma f(z) \ dz = 1\)</span>. Be careful with minus signs and factors of <span class="arithmatex">\(2\pi i\)</span>.\
+   (b) From the theory of Laurent expansions, it is known that there are constants <span class="arithmatex">\(a_n\)</span> such that, for <span class="arithmatex">\(1&lt;|z|&lt;4\)</span>, <span class="arithmatex">\(<span class="arithmatex">\(\frac{1}{z^2 - 5z + 4} = \sum_{n=-\infty}^\infty a_n z^n.\)</span>\)</span> Find <span class="arithmatex">\(a_{-10}\)</span> and <span class="arithmatex">\(a_{10}\)</span> by the method of your choice.
+  <!-- \index{Laurent expansion} -->
+</p>
+</li>
+<li>
+<p>(a) Suppose that <span class="arithmatex">\(f\)</span> is analytic on a region <span class="arithmatex">\(G\subset \mathbb C\)</span> and <span class="arithmatex">\(\\{z\in \mathbb C: |z-a|\leq R\\} \subset G\)</span>.  Show that if <span class="arithmatex">\(|f(z)| \leq M\)</span> for all <span class="arithmatex">\(z\)</span> with <span class="arithmatex">\(|z-a|=R\)</span>, then for any  <span class="arithmatex">\(w_1, w_2\in \\{z\in \mathbb C: |z-a|\leq \frac{1}{2}R\\}\)</span>, we have <span class="arithmatex">\(<span class="arithmatex">\(|f(w_1) - f(w_2)| \leq \frac{4M}{R} |w_1 - w_2|.\)</span>\)</span>
+   (b) Explain how Part (a) can be used with the Arzela-Ascoli Theorem to prove Montel's Theorem asserting the normality of any locally bounded family <span class="arithmatex">\(F\)</span> of analytic functions on a region <span class="arithmatex">\(G\)</span>.</p>
+</li>
+</ol>
+<!-- 
+SOLUTION 1.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      {\bf (a)} Let $P=u$ and $Q= -v$ in~(\ref{eq:2001-1-1}).  Then,
+      by the Cauchy-Riemann equations,\footnote{These 
+        \index{Cauchy-Riemann equations}
+        are $u_x = v_y$ and $u_y = -v_x$. 
+        % If you forget where the minus sign goes, just
+        % remember that $z=x+iy$ is analytic.
+      }
+      \begin{equation}
+        \label{eq:2001-1-2}
+        \int_\gamma u(x,y)\, dx - v(x,y) \, dy= \int_G (v_x + u_y) \, dx\, dy = 0.
+      \end{equation}
+      Similarly, if $P=v$ and $Q=u$ in Green's theorem, then the Cauchy-Riemann
+      equations imply
+      \begin{equation}
+        \label{eq:2001-1-3}
+        \int_\gamma v(x,y)\, dx + u(x,y) \, dy= \int_G (u_x - v_y) \, dx\, dy = 0.
+      \end{equation}
+      Next, note that 
+      \[
+      f(z)\, dz = [u(x,y)+iv(x,y)]\, d(x+iy)  
+      = u(x,y)\, dx - v(x,y)\, dy
+      +i [v(x,y)\, dx + u(x,y)\, dy].
+      \]
+      Therefore, by (\ref{eq:2001-1-2}) and (\ref{eq:2001-1-3}), 
+      \[
+      \int_\gamma f(z)\, dz = \int_\gamma u(x,y)\, dx - v(x,y)\, dy
+      +i \int_\gamma v(x,y)\, dx + u(x,y)\, dy = 0.
+      \]
+      \qed~\\[4pt]
+      \index{Cauchy's theorem!proof by Green's theorem|)} 
+      {\bf (b)}  Suppose $u$ and $v$ are continuous and $f'(z)$ exists at the point $z_0\in G$. 
+      Then, for any $\epsilon>0$ there is a $\delta>0$ such that 
+      $B(z_0,\delta)\subseteq G$, and 
+      \[
+      \left| f'(z_0) - \frac{f(z) - f(z_0)}{z-z_0}\right| < \epsilon, \quad \text{ for
+        all $|z- z_0|< \delta$.}
+      \]
+      Pick a triangular region $\Delta \subset B(z_0,\delta)$
+      with $z_0\in \Delta$, and let $T$ be the boundary.
+      Define 
+      \[
+      R(z) = f(z) - [f(z_0) + f'(z_0) (z-z_0)].
+      \]
+      \index{Cauchy's theorem!problems}
+      Then, by Cauchy's theorem (part (a)), $\int_T [f(z_0) + f'(z_0) (z-z_0)] \, dz =
+      0$, whence $\int_T R(z)\, dz = \int_T f(z)\, dz$.
+      Finally, note that 
+      \[
+      \left|\frac{R(z)}{z-z_0}\right| = 
+      \left| f'(z_0) - \frac{f(z) - f(z_0)}{z-z_0}\right| < \epsilon, \quad \text{ for
+        all $|z- z_0|< \delta$.}
+      \]
+      Therefore,
+      \setlength{\arraycolsep}{0.0em}
+      \begin{eqnarray*}
+        \left|\int_T f(z)\, dz\right| &{}={}& \left|\int_T R(z)\, dz \right|
+        \leq \int_T |R(z)|\, |dz| \\[4pt]
+        &{}={}& \int_T  \left|\frac{R(z)}{z-z_0}\right| |z-z_0|\, |dz| \\[4pt]
+        &{}\leq{}& \epsilon \int_T  |z-z_0|\, |dz| \leq \epsilon r L.
+      \end{eqnarray*}
+      where $L$ denotes the length of the perimeter of $\Delta$ (\ie the length of
+      $T$), and $r$ denotes the length of one side of $T$, which must, of course, be
+      greater than $|z-z_0|$ for all $z\in T$. Also, the length of one side of $\Delta$
+      is surely less than half the length of the perimeter (\ie $r<L/2$).  Therefore,
+      \[
+      \left|\int_T f(z)\, dz\right| \leq \frac{1}{2}\epsilon L^2.     
+      \]\qed
+    \end{solution}  }{}
+
+SOLUTION 2.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      In the two proofs below, we begin by supposing $p(z)$ is not constant and
+      thus has the form $p(z) = a_0 + a_1 z + a_2 z^2 + \mathbb Cdots + a_n z^n$ with 
+      $a_n \neq 0$ for some $n\geq 1$. Both proofs also rely on the following
+      observation:
+      If $\{a_j\}_{j=0}^n \subset \mathbb C$ with $a_n\neq 0$, then for all 
+      $1\leq R \leq |z| <\infty$,
+      \setlength{\arraycolsep}{0.0em}
+      \begin{eqnarray*}
+        \left|\frac{a_0}{a_n} z^{-n} + \mathbb Cdots +\frac{a_{n-1}}{a_n} z^{-1}\right|
+        &{}\leq{}& \frac{|a_0|}{|a_n|} |z|^{-n} + \mathbb Cdots +\frac{|a_{n-1}|}{|a_n|} |z|^{-1}\\[4pt]
+        &{}\leq{}& n \max_{0\leq j <n} \frac{|a_j|}{|a_n|}|z|^{-1} \\[4pt]
+        &{}\leq{}& n \max_{0\leq j <n} \frac{|a_j|}{|a_n|}R^{-1}.
+      \end{eqnarray*}
+      In particular, if we choose\footnote{Note, we add 1 here just to be sure 
+        $R$ is safely over 1.}
+      % The proofs presented here are quite concrete,
+      % and perhaps a bit heavy handed. For example, we compute a
+      % specific $R>0$ with some desired properties.  Of course, we needn't compute
+      % such an $R$ to convince ourselves that it exists.  The proof in Conway is much
+      % more elegant, and probably no 
+      % less convincing.  He simply notes that if $p(z)$ is a non-constant polynomial
+      % then $\lim{z\rightarrow \infty} p(z)=\infty$ and, therefore
+      $R = 1+ 2\, n \,\max_{0\leq j <n} |a_j|/|a_n|$, then
+      \begin{equation}
+        \label{eq:2001-2-0}
+        \left|\frac{a_0}{a_n} z^{-n} + \mathbb Cdots +\frac{a_{n-1}}{a_n} z^{-1}\right| \leq 1/2,
+        \quad \text{ for all $|z| \geq R$.}
+      \end{equation}~\\[4pt]
+
+      {\it Proof 1:}  Assume $p(z) = a_0 + a_1 z + \mathbb Cdots + a_n z^n$ with 
+      $a_n \neq 0$ for some $n\geq 1$, and 
+      let $R = 1+ 2\, n \,\max_{0\leq j <n} |a_j|/|a_n|$, as above.
+      We claim that
+      \begin{equation}
+        \label{eq:2001-2-1}
+        |p(z) - a_n z^n| < |a_n z^n|, \quad \text{ for all $|z|=R$.}     
+      \end{equation}
+      To see this, check that
+      \[
+      \frac{|p(z) - a_n z^n|}{|a_n z^n|}
+      = \left|\frac{a_0}{a_n} z^{-n} + \mathbb Cdots +\frac{a_{n-1}}{a_n} z^{-1}\right| < 1,
+      \quad \text{ for all $|z|=R$.}     
+      \]
+      In fact, (\ref{eq:2001-2-0}) implies that the sum is no greater than 1/2, for all
+      $|z|\geq R$, which is more than we need.
+      Now (\ref{eq:2001-2-1}) and Rouch\'{e}'s theorem \index{Rouch\'{e}'s theorem} 
+      imply that the function $g(z) = a_nz^n$ has the same number of zeros in $|z|<R$
+      as does the function $p(z)$. Clearly $z=0$ is a zero of
+      $g(z)$ (of multiplicity $n$).  Therefore, $p(z)$ has a zero in $|z|<R$.
+      \qed~\\
+      {\it Proof 2:}\footnote{Conway~\mathbb Cite{Conway:1978} (p.~77) presents a similar, but
+        more elegant proof.}   Assume $p(z) = a_0 + a_1 z + \mathbb Cdots + a_n z^n$ with 
+      $a_n \neq 0$ for some $n\geq 1$, and consider 
+      % \setlength{\arraycolsep}{0.0em}
+      % \begin{eqnarray*}
+      %   |p(z)| &{}={}& |a_n z^n| \left|\frac{a_0}{a_n}z^{-n} + \mathbb Cdots + \frac{a_{n-1}}{a_n} z^{-1} + 1\right|\\[4pt]
+      %   &{}\geq{}& |a_n||z|^n \left| 1 -
+      %     |\sum_{j=0}^{n-1}\frac{a_j}{a_n}z^{-n+j}|\,\right|.
+      % \end{eqnarray*}
+      \begin{equation}
+        \label{eq:2001-2-2}
+        |p(z)| = |a_n z^n| \left|\frac{a_0}{a_n}z^{-n} + \mathbb Cdots + \frac{a_{n-1}}{a_n} z^{-1} + 1\right|
+        \geq |a_n||z|^n \left| 1 - |\sum_{j=0}^{n-1}\frac{a_j}{a_n}z^{-n+j}|\,\right|.
+      \end{equation}
+      If we choose $R = 1+ 2\, n \,\max_{0\leq j <n} |a_j|/|a_n|$ as above, 
+      then 
+      % by~(\ref{eq:2001-2-0}),
+      \[
+      0\leq \left|\sum_{j=0}^{n-1}\frac{a_j}{a_n}z^{-n+j}\right| 
+      = \left|\frac{a_0}{a_n} z^{-n} + \mathbb Cdots +\frac{a_{n-1}}{a_n} z^{-1}\right| \leq 1/2,
+      \quad \text{ for all $|z|\geq R$,}
+      \]
+      and (\ref{eq:2001-2-2}) becomes $|p(z)| \geq |a_n||z|^n/2$, for all $|z|\geq R$.
+      Therefore, the function $f(z) \triangleq 1/p(z)$  satisfies
+      \[
+      |f(z)| = \frac{1}{|p(z)|} \leq \frac{2}{|a_n||z|^n}, \quad
+      \text{ for all $|z|\geq R$.}
+      \]
+      Now suppose $p(z)$ has no complex zero.  Then $f(z) \in H(\mathbb C)$. In particular, $f(z)$
+      is continuous, hence bounded on the compact set $|z|\leq R$.  Therefore $f(z)$ is a
+      bounded entire function, so, by Liouville's theorem,
+      \index{Liouville's theorem!applied}
+      it must be constant, but then $p(z)$ must be constant.  This contradicts our
+      initial assumption and proves that $p(z)$ must have a complex zero.
+      \qed
+
+      In fact, we have proved a bit more: If $p(z) = a_0 + a_1 z + \mathbb Cdots + a_n z^n$ 
+      with $a_n \neq 0$ for some $n\geq 1$, and $R$ is either 1 or
+      $R = 2\, n \,\max_{0\leq j <n} |a_j|/|a_n|$ (whichever is greater), then
+      $p(z)$ vanishes for some $|z|< R$, while for all $|z|\geq R$, $|p(z)|$ is bounded
+      from below by $|a_n||z|^n/2$.  Thus all the zeros of $p(z)$ are contained in
+      the disk $|z|< R$. 
+    \end{solution}  }{}
+
+%  \ifthenelse{\boolean{newpagebetweenexams}}{\newpage}{\btwnexamspace}
+\pspace
+
+
+SOLUTION 3.
+
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}~\\[-14pt]
+      \begin{theorem}[Casorati-Weierstrass] If $f$ is a holomorphic function in a
+        region $G\in \mathbb C$ except for an essential singularity at the point $z=z_0$, then
+        for any $w\in \mathbb C$ there is a sequence $\{z_n\}\subset G$ approaching $z_0$ such
+        that $f(z_n)\rightarrow w$ as $n\rightarrow \infty$.
+      \end{theorem}
+      {\it Proof:}  Fix $w_0\in \mathbb C$ and suppose there is no sequence $\{z_n\}\subset G$ approaching
+      $z_0$ such that $f(z_n)\rightarrow w_0$ as $n\rightarrow \infty$.  Then there is a
+      punctured disk $\bar{D_0} \triangleq B(z_0,\epsilon)\setminus \{z_0\} \subset G$
+      such that $|f(z)-w_0|>\delta >0$ for all $z\in \bar{D_0}$.  Define
+      $g(z) = 1/(f(z) - w_0)$ on $D_0$.  Then 
+      \[
+      \limsup_{\substack{z\rightarrow z_0\\ z\in D_0}} |g(z)| = 
+      \limsup_{\substack{z\rightarrow z_0\\ z\in D_0}} \frac{1}{|f(z) - w_0|}\leq \frac{1}{\delta} < \infty.
+      \]
+      Thus, by lemma~\ref{lem:removable-singularity} (Nov.~'06, prob.~1), $z_0$ is a removable
+      singularity of $g(z)$.  Therefore, $g(z) \in H(B(z_0, \epsilon))$. In particular,
+      $g$ is continuous and non-zero at $z=z_0$, so it is non-zero in a neighborhood
+      $B(z_0,\epsilon_0)$ of $z_0$.  Therefore, $f(z)-w_0 = 1/g(z)$ is holomorphic in 
+      $B(z_0,\epsilon_0)$, which implies that the singularity of $f(z)$ at $z=z_0$ is
+      removable. This contradiction proves the theorem.
+      \qed~\\[4pt]
+      {\bf (b)} Consider $f(z) = e^z$.  This function has an essential singularity at
+      $\infty$, and, for every horizontal strip,
+      % (If you prefer, consider $g(z) = f(1/z) = e^{1/z}$ which has its
+      % essential singularity at $z=0$.)
+      \[
+      S_\alpha = \{x+iy: x\in \R, \, \alpha \leq y < \alpha + 2\pi\},
+      \]
+      of width $2\pi$, $f(z)$ maps $S_\alpha$ onto $\mathbb C\setminus \{0\}$.  (In particular,
+      $f(z)$ comes arbitrarily close to every $w\in \mathbb C$.)  Now let $\sigN_R = \{z\in \mathbb C:
+      |z|>R\}$ be any neighborhood of $\infty$.  There is clearly a strip $S_\alpha$
+      contained in $\sigN_R$ (\eg with $\alpha = R+1$).  Therefore, $f(z)=e^z$ maps
+      points in $\sigN_R$ to points arbitrarily close (in fact equal when $w\neq 0$)
+      to all points $w\in \mathbb C$.
+      \qed
+    \end{solution}  }{}
+
+   \pspace
+%  \ifthenelse{\boolean{newpagebetweenexams}}{\newpage}{\btwnexamspace}
+
+SOLUTION 4.
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      {\bf (a)} Let $G$ be the region whose boundary is the curve $\gamma$, and suppose 
+      $f(z) \in H(\mathbb C)$ except for isolated singularities at the points  
+      $\{z_1, \ldots, z_n\}\subset G$. By the residue theorem, \index{residue theorem!applied}
+      \[
+      \int_\gamma f(z) \, dz = 2\pi i \sum_{j=1}^n \mbox{Res}(f,z_j).
+      \]
+      Therefore, if we were to find a function $f(z)\in H(\mathbb C)$ with exactly two isolated
+      singularities in $G$ (\eg at $z_1=i$ and $z_2=-i$), and such that 
+      $\mbox{Res}(f,z_j)=\frac{-i}{4\pi}$, then 
+      \[
+      \int_\gamma f(z) \, dz = 2\pi i \sum_j \mbox{Res}(f,z_j) = 2\pi i
+      \left(\frac{-i}{4\pi}+\frac{-i}{4\pi}\right) = 1,
+      \]
+      and the problem would be solved. Clearly, 
+      \[
+      f(z) = \frac{-i}{4\pi}\left(\frac{1}{z-i} - \frac{1}{z+i}\right) = \frac{1}{2\pi i}
+      \frac{z}{z^2+1}
+      \]
+      is such a function.
+      \qed~\\[4pt]
+      {\bf (b)} Expand the function in partial fractions:
+      \[
+      % f(z) \triangleq \frac{1}{z^2 - 5z + 4} = \frac{1}{(z-4)(z-1)} = 
+      \frac{1}{z^2 - 5z + 4} = \frac{1}{(z-4)(z-1)} = 
+      \frac{1/3}{z-4}- \frac{1/3}{z-1}.
+      \]
+      Then, note that 
+      \[
+      \frac{1/3}{z-4} = \frac{1}{3}\frac{-1}{4(1-z/4)} = 
+      -\frac{1}{12} \sum_{n=0}^\infty \left(\frac{z}{4}\right)^n
+      \]
+      converges for $|z|<4$, while
+      \[
+      \frac{1/3}{z-1} = -\frac{1}{3}\frac{1}{z(1-1/z)} = 
+      -\frac{1}{3z} \sum_{n=0}^\infty z^{-n}
+      \]
+      converges for $|z|>1$.  Therefore,
+      \[
+      \frac{1}{z^2 - 5z + 4} =
+      -\frac{1}{3} \sum_{n=-\infty}^{-1} z^{n}
+      -\frac{1}{12} \sum_{n=0}^\infty \left(\frac{1}{4}\right)^n z^n
+      , \quad \text{ for $1<|z|<4$.}
+      \]
+      \[
+      \therefore \quad a_{-10} = -\frac{1}{3} \qquad \text{and} \qquad 
+      a_{10} = -\frac{1}{12}\left(\frac{1}{4}\right)^{10}.
+      \]
+      \qed
+    \end{solution}  }{}
+
+   \pspace 
+  %\ifthenelse{\boolean{newpagebetweenexams}}{\newpage}{\btwnexamspace}
+
+SOLUTION 5.
+
+  \ifthenelse{\boolean{includeSolutions}}{\begin{solution}
+      \index{Cauchy's formula!applied} 
+      {\bf (a)}     %Let $\gamma$ be the positively oriented circle $\{\zeta : |\zeta - a| = R\}$. 
+      By Cauchy's formula (\ref{thm:cauchyform1}), if $w$ is any point in the 
+      disk $|w-a|< R$, then 
+      \[
+      f(w) = \frac{1}{2\pi i} \int_{|\zeta - a| = R} \frac{f(\zeta)}{\zeta-w}\, d\zeta.
+      \]  
+      In particular, if $w_1, w_2$ are any two points
+      inside the ``half-disk'' $|w-a|< R/2$ (see figure \ref{fig:concentriccircles}), then
+      \begin{align*}
+        f(w_1) - f(w_2) 
+        % &= \frac{1}{2\pi i} \int_{|\zeta - a| = R} \frac{f(\zeta)}{\zeta-w_1}\, d\zeta,
+        % - \frac{1}{2\pi i} \int_{|\zeta - a| = R} \frac{f(\zeta)}{\zeta-w_2}\, d\zeta\\
+        &= \frac{1}{2\pi i} \int_{|\zeta - a| = R} 
+        \left[\frac{f(\zeta)}{\zeta-w_1} - \frac{f(\zeta)}{\zeta-w_2}\right]\, d\zeta\\[4pt]
+        &= \frac{w_1 - w_2}{2\pi i}\int_{|\zeta - a| = R}
+        \frac{f(\zeta)}{(\zeta-w_1)(\zeta-w_2)}\, d\zeta.
+      \end{align*}
+      \begin{figure}[h!]
+        \vspace{-35mm}
+        \mathbb Centering  
+        \includegraphics[width=10cm]{contour}
+        \vspace{-35mm}
+        \mathbb Caption{
+          {\it Note that, if $\zeta$ is any point on the outer
+            radius, $|\zeta - a|=R$,
+            and if $w$ is any point in the disk $|w-a|<R/2$,
+            then $|\zeta - w|>R/2$.}}
+        \label{fig:concentriccircles}
+      \end{figure}
+
+      Now, for all $\zeta$ on the outer radius in  figure \ref{fig:concentriccircles},
+      it is clear that $|\zeta - w_1|>R/2$ and $|\zeta - w_2|>R/2$.  Therefore,
+      \begin{align*}
+        |f(w_1) - f(w_2)| &\leq 
+        \frac{|w_1 - w_2|}{2\pi}\int_{|\zeta - a| = R}
+        \frac{|f(\zeta)|}{(R/2)^2}\, |d\zeta|\\[4pt]
+        &\leq \frac{|w_1 - w_2|}{2\pi}\,
+        \frac{\sup_\gamma |f(\zeta)|}{R^2/4}\,\ell(\gamma) \\[4pt]
+        &\leq \frac{4M}{R}|w_1 - w_2|,
+      \end{align*}
+      where $\gamma$ denotes the positively oriented circle 
+      $\{\zeta: |\zeta - a| = R\}$, and $\ell(\gamma)$ denotes its length, $2\pi R$.
+      \qed
+
+     % \ifthenelse{\boolean{newpagebetweenexams}}{\newpage}{\btwnexamspace}
+\pspace
+      \index{normal family|(}
+
+      {\bf (b)}\footnote{The best treatment of normal families and the
+        Arzela-Ascoli theorem is Ahlfors~\mathbb Cite{Ahlfors:1968}.}
+      % (from which the solution to this problem is adapted).
+      We must explain how part (a) can be used with the 
+      Arzela-Ascoli theorem to prove Montel's theorem
+      asserting the normality of any locally bounded family $\FT \subset H(G)$.
+      \index{Arzela-Ascoli theorem|ii}
+      \begin{theorem}[Arzela-Ascoli]
+        \label{thm:arzela-ascoli}
+        Let $\FT\subset C(G, S)$ be a family of continuous functions from an open
+        set $G\subseteq \mathbb C$ into a metric space $(S,d)$.  Then $\FT$ is a normal
+        family if and only if\\
+        \phantom{xx}(i) $\FT$ is equicontinuous on each compact subset of $G$, and\\
+        \phantom{xx}(ii) for each $z\in G$, the set $\{f(z):f\in \FT\}$ is contained in a
+        compact subset of $S$.
+      \end{theorem}
+
+      Recall that a family $\FT$ of functions is called {\it locally bounded} on $G$
+      iff for all compact $K\subset G$ there is a constant $M_K$ such that
+      $|f(z)|\leq M_K$ for all $f\in \FT$ and $z\in K$.
+
+      \index{Montel's theorem|ii}
+      \begin{corollary}[little Montel theorem]
+        \label{cor:montel}
+        Assume the set-up of the Arzela-Ascoli theorem, and suppose $S=\mathbb C$ and
+        $\FT\subset H(G)$. Then $\FT$ is a normal family if and only if it is
+        locally bounded. 
+      \end{corollary}
+
+      Because of the way the
+      problem is stated, it is probably enough to prove just one direction of
+      Montel's theorem; \ie local boundedness implies normality.  
+      For a proof of the other direction, 
+      see Conway~\mathbb Cite{Conway:1978}, page 153.
+
+      Let $S = \mathbb C$ in the Arzela-Ascoli theorem.  In that case, $K\subset \mathbb C$ is
+      compact if and only if $K$ is closed and bounded.  Therefore, if $\FT$ is 
+      locally bounded, condition (ii) of the theorem is clearly satisfied.  To check that local
+      boundedness also implies condition (i), we use part (a).
+
+      It suffices 
+      (why?)\footnote{Answer: If, instead of a single point 
+        $a\in G$, we are given a compact set $K\subset G$, then there is a finite 
+        cover $\{B(a_j,r_j):j=1,\ldots, n\}$ by such neighborhoods with equicontinuity
+        constants $\delta_1, \ldots, \delta_n$.  Then, $\delta = \min_j\delta_j$, is a
+        single equicontinuity constant that works for all of $K$.}
+      to prove that for any $a\in G$ there is a neighborhood $B(a,r)$ in
+      which $\FT$ is equicontinuous with equicontinuity 
+      constant\footnote{The careful reader might note the distinction between
+        this type of ``uniform'' equicontinuity, which is taken for granted in complex
+        analysis texts, \eg Ahlfors~\mathbb Cite{Ahlfors:1968} and Rudin~\mathbb Cite{Rudin:1987}, 
+        and the ``pointwise'' equicontinuity discussed in topology
+        \index{equicontinuity!pointwise vs. uniform}
+        books like the one by Munkres~\mathbb Cite{Munkres}.  To make peace with this
+        apparent discrepancy, check that the two notions coincide when the set on which a family
+        of functions is declared equicontinuous is compact.}
+      $\delta$. So, fix $a\in G$ and $\epsilon >0$, and let $\bar{B}(a,R)\subset G$.
+      Then, by local boundedness, there is an $M>0$ such that $|f(z)|\leq M$ for all 
+      $z \in \bar{B}(a,R)$ and all $f\in \FT$.  Therefore, by part (a),
+      \[
+      |f(w_1)-f(w_2)| \leq \frac{4M}{R}|w_1-w_2|, \quad 
+      \text{ for all $w_1, w_2 \in \{|w-a|\leq R/2\}$.}
+      \]
+      If $\delta = \frac{R}{4M}\epsilon$ and $r = R/2$, then
+      $|f(w_1)-f(w_2)| < \epsilon$ whenever 
+      $w_1, w_2 \in B(a,r)$ and $|w_1-w_2|< \delta$.  Therefore, $\FT$ is
+      equicontinuous in $B(a,r)$.
+      We have thus shown that local boundedness implies conditions (i) and (ii) of the
+      Arzela-Ascoli theorem and thereby implies normality.
+      \qed
+      \index{normal family|)}
+    \end{solution}  }{}
+\end{enumerate} -->
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../1995Apr10/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 1995 Apr">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                1995 Apr
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../2002Nov20/" class="md-footer__link md-footer__link--next" aria-label="Next: 2002 Nov">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                2002 Nov
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/IntersectMBO/formal-ledger-specifications" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.tooltips", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../.."></script>
+      
+        <script src="../../../pymdownx.snippets"></script>
+      
+        <script src="../../.."></script>
+      
+        <script src="../../.."></script>
+      
+    
+  </body>
+</html>
