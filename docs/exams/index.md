@@ -1,10 +1,9 @@
-+++
-title = "Math PhD Exams"
-description = "Exams in Group Theory, Ring Theory, Complex Analysis, and Real Analysis"
-date = 2019-01-02
-[extra]
-banner="hawaii-rainbow"
-+++
+---
+title: Math PhD Exams
+date: '2019-01-02'
+description: Exams in Group Theory, Ring Theory, Complex Analysis, and Real Analysis
+---
+<!-- zola-banner: hawaii-rainbow -->
 
 ## Comprehensive Exams in Mathematics
 
@@ -48,3 +47,4 @@ banner="hawaii-rainbow"
 
 <!-- 
 | 1995 | [$\mathbb C$](./exams/complex/1995Apr10.md), [$R$](./exams/rings/1995Apr.md) | [$R$](./exams/rings/1995Nov.md)   | -->
+

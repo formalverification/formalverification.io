@@ -1,8 +1,9 @@
-+++
-title="problems in groups theory"
-description="Group theory sections of math phd exams given at University of Hawaii (1991--2008)"
-date=2009-01-01
-+++
+---
+title: problems in groups theory
+date: '2009-01-01'
+description: Group theory sections of math phd exams given at University of Hawaii
+  (1991--2008)
+---
 
 <!-- more -->
 
@@ -63,3 +64,4 @@ Some typographical and mathematical errors surely exist. Nonetheless, it is hope
 
 It's no secret that mathematics is best learned by solving problems, and the purpose of this list of problems is to give the reader many opportunities to learn about groups. The solutions are there to allow the diligent student to compare their own solutions to these, to offer assistance in the (hopefully very rare) instances where the student is completely stuck, and finally to provide cautionary notes about typical oversights and points of confusion.
 -->
+

@@ -1,8 +1,9 @@
-+++
-title="Problems in Real Analysis"
-description = "Real analysis parts of math phd exams given at the University of Hawaii over the period 1991--2008"
-date=2009-01-01
-+++
+---
+title: Problems in Real Analysis
+date: '2009-01-01'
+description: Real analysis parts of math phd exams given at the University of Hawaii
+  over the period 1991--2008
+---
 
 <!-- more -->
 
@@ -54,4 +55,5 @@ Tom Ramsey and Wayne Smith helped me learn how to solve problems in real and com
 Please send comments, suggestions, and corrections to [williamdemeo@gmail.com](mailto:williamdemeo@gmail.com).  
 
 ---
+
 

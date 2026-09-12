@@ -1,9 +1,9 @@
-+++
-title="Problems in Complex Analysis"
-description = "Complex analysis sections of math phd exams given at the University of Hawaii (1991--2008)"
-date=2009-01-01
-+++
-
+---
+title: Problems in Complex Analysis
+date: '2009-01-01'
+description: Complex analysis sections of math phd exams given at the University of
+  Hawaii (1991--2008)
+---
 
 <!-- more -->
 
@@ -47,3 +47,4 @@ Tom Ramsey and Wayne Smith helped me learn how to solve problems in real and com
 ## Feedback 
 
 Please send comments, suggestions, and corrections to [williamdemeo@gmail.com](mailto:williamdemeo@gmail.com).  
+

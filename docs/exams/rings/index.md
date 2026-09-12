@@ -1,8 +1,9 @@
-+++
-title="Problems in Ring Theory"
-description="Ring theory sections of math phd exams given at University of Hawaii (1991--2008)"
-date=2009-01-01
-+++
+---
+title: Problems in Ring Theory
+date: '2009-01-01'
+description: Ring theory sections of math phd exams given at University of Hawaii
+  (1991--2008)
+---
 
 <!-- more -->
 
@@ -59,3 +60,4 @@ Some typographical and mathematical errors surely exist. Nonetheless, we hope th
 It's no secret that mathematics is best learned by solving problems, and the purpose of this document is to give the reader many problems to work on.
 The solutions are there to assist you in filling any gaps, and to provide cautionary notes about typical oversights and points of confusion. 
 -->
+
