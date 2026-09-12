@@ -7,18 +7,19 @@ description: Ring theory sections of math phd exams given at University of Hawai
 
 <!-- more -->
 
-+ [1992 Nov](./exams/rings/1992Nov.md)
-+ [1995 Apr](./exams/rings/1995Apr.md)
-+ [1995 Nov](./exams/rings/1995Nov.md)
-+ [1996 Apr](./exams/rings/1996Apr.md)
-+ [1999 Mar](./exams/rings/1999Mar.md)
-+ [2000 Nov](./exams/rings/2000Nov10.md)
-+ [2001 Nov](./exams/rings/2001Nov26.md)
-+ [2003 Apr](./exams/rings/2003Apr.md)
-+ [2003 Nov](./exams/rings/2003Nov.md)
-+ [2004 Nov](./exams/rings/2004Nov.md)
-+ [2008 Jan](./exams/rings/2008Jan.md) 
-+ [2008 Apr](./exams/rings/2008Apr.md)
++ [1992 Nov](1992Nov.md)
++ [1995 Apr](1995Apr.md)
++ [1995 Nov](1995Nov.md)
++ [1996 Apr](1996Apr.md)
++ [1999 Mar](1999Mar.md)
++ [2000 Nov](2000Nov10.md)
++ [2001 Nov](2001Nov26.md)
++ [2003 Apr](2003Apr.md)
++ [2003 Nov](2003Nov.md)
++ [2004 Nov](2004Nov.md)
++ [2008 Jan](2008Jan.md) 
++ [2008 Apr](2008Apr.md)
++ [2008 Nov](2008Nov.md)
 
 ---
 

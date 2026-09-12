@@ -7,13 +7,13 @@ description: Real analysis parts of math phd exams given at the University of Ha
 
 <!-- more -->
 
-+ [1991 Nov](./exams/real/1991Nov21.md)
-+ [1994 Nov](./exams/real/1994Nov16.md)
-+ [1998 Apr](./exams/real/1998Apr03.md)
-+ [2000 Nov](./exams/real/2000Nov17.md)
-+ [2001 Nov](./exams/real/2001Nov26.md)
-+ [2004 Apr](./exams/real/2004Apr19.md)
-+ [2007 Nov](./exams/real/2007Nov16.md)
++ [1991 Nov](1991Nov21.md)
++ [1994 Nov](1994Nov16.md)
++ [1998 Apr](1998Apr03.md)
++ [2000 Nov](2000Nov17.md)
++ [2001 Nov](2001Nov26.md)
++ [2004 Apr](2004Apr19.md)
++ [2007 Nov](2007Nov16.md)
 
 ---
 
