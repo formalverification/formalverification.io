@@ -1,23 +1,24 @@
-+++
-title="Problems in Complex Analysis"
-description = "Complex analysis sections of math phd exams given at the University of Hawaii (1991--2008)"
-date=2009-01-01
-+++
-
+---
+title: Problems in Complex Analysis
+date: '2009-01-01'
+description: Complex analysis sections of math phd exams given at the University of
+  Hawaii (1991--2008)
+---
 
 <!-- more -->
 
-+ [1991 Apr](./exams/complex/1991Apr.md)
-+ [1991 Nov](./exams/complex/1991Nov21.md)
-+ [1995 Apr](./exams/complex/1995Apr10.md)
-+ [2001 Nov](./exams/complex/2001Nov26.md)
-+ [2002 Nov](./exams/complex/2002Nov20.md)
-+ [2003 Apr](./exams/complex/2003Apr23.md)
-+ [2003 Nov](./exams/complex/2003Nov17.md)
-+ [2004 Apr](./exams/complex/2004Apr19.md)
-+ [2006 Nov](./exams/complex/2006Nov13.md)
-+ [2007 Apr](./exams/complex/2007Apr16.md)
-+ [2007 Nov](./exams/complex/2007Nov16.md)
++ [1991 Apr](1991Apr.md)
++ [1991 Nov](1991Nov21.md)
++ [1994 Nov](1994Nov16.md)
++ [1995 Apr](1995Apr10.md)
++ [2001 Nov](2001Nov26.md)
++ [2002 Nov](2002Nov20.md)
++ [2003 Apr](2003Apr23.md)
++ [2003 Nov](2003Nov17.md)
++ [2004 Apr](2004Apr19.md)
++ [2006 Nov](2006Nov13.md)
++ [2007 Apr](2007Apr16.md)
++ [2007 Nov](2007Nov16.md)
 
 ---
 
@@ -47,3 +48,4 @@ Tom Ramsey and Wayne Smith helped me learn how to solve problems in real and com
 ## Feedback 
 
 Please send comments, suggestions, and corrections to [williamdemeo@gmail.com](mailto:williamdemeo@gmail.com).  
+

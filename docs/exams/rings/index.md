@@ -1,23 +1,25 @@
-+++
-title="Problems in Ring Theory"
-description="Ring theory sections of math phd exams given at University of Hawaii (1991--2008)"
-date=2009-01-01
-+++
+---
+title: Problems in Ring Theory
+date: '2009-01-01'
+description: Ring theory sections of math phd exams given at University of Hawaii
+  (1991--2008)
+---
 
 <!-- more -->
 
-+ [1992 Nov](./exams/rings/1992Nov.md)
-+ [1995 Apr](./exams/rings/1995Apr.md)
-+ [1995 Nov](./exams/rings/1995Nov.md)
-+ [1996 Apr](./exams/rings/1996Apr.md)
-+ [1999 Mar](./exams/rings/1999Mar.md)
-+ [2000 Nov](./exams/rings/2000Nov10.md)
-+ [2001 Nov](./exams/rings/2001Nov26.md)
-+ [2003 Apr](./exams/rings/2003Apr.md)
-+ [2003 Nov](./exams/rings/2003Nov.md)
-+ [2004 Nov](./exams/rings/2004Nov.md)
-+ [2008 Jan](./exams/rings/2008Jan.md) 
-+ [2008 Apr](./exams/rings/2008Apr.md)
++ [1992 Nov](1992Nov.md)
++ [1995 Apr](1995Apr.md)
++ [1995 Nov](1995Nov.md)
++ [1996 Apr](1996Apr.md)
++ [1999 Mar](1999Mar.md)
++ [2000 Nov](2000Nov10.md)
++ [2001 Nov](2001Nov26.md)
++ [2003 Apr](2003Apr.md)
++ [2003 Nov](2003Nov.md)
++ [2004 Nov](2004Nov.md)
++ [2008 Jan](2008Jan.md) 
++ [2008 Apr](2008Apr.md)
++ [2008 Nov](2008Nov.md)
 
 ---
 
@@ -59,3 +61,4 @@ Some typographical and mathematical errors surely exist. Nonetheless, we hope th
 It's no secret that mathematics is best learned by solving problems, and the purpose of this document is to give the reader many problems to work on.
 The solutions are there to assist you in filling any gaps, and to provide cautionary notes about typical oversights and points of confusion. 
 -->
+

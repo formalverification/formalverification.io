@@ -5,9 +5,10 @@ nav:
   - Home: index.md
 
   - PhD Exams:
+    - Overview: exams/index.md
     - Algebra:
-      - Groups: 
-        - 1993 Nov: exams/groups/1993Nov.md
+      - Groups:
+        - Overview: exams/groups/index.md
         - 1993 Nov: exams/groups/1993Nov.md
         - 1999 Mar: exams/groups/1999Mar.md
         - 2000 Nov: exams/groups/2000Nov10.md
@@ -20,17 +21,23 @@ nav:
         - 2008 Jan: exams/groups/2008Jan.md
         - 2008 Apr: exams/groups/2008Apr.md
       - Rings:
-        - 1991 Nov: exams/real/1991Nov21.md
-        - 1994 Nov: exams/real/1994Nov16.md
-        - 1998 Apr: exams/real/1998Apr03.md
-        - 2000 Nov: exams/real/2000Nov17.md
-        - 2001 Nov: exams/real/2001Nov26.md
-        - 2004 Apr: exams/real/2004Apr19.md
-        - 2007 Nov: exams/real/2007Nov16.md
-      - Fields: exams/fields/index.md
-      - Linear Algebra: exams/linear-algebra/index.md
+        - Overview: exams/rings/index.md
+        - 1992 Nov: exams/rings/1992Nov.md
+        - 1995 Apr: exams/rings/1995Apr.md
+        - 1995 Nov: exams/rings/1995Nov.md
+        - 1996 Apr: exams/rings/1996Apr.md
+        - 1999 Mar: exams/rings/1999Mar.md
+        - 2000 Nov: exams/rings/2000Nov10.md
+        - 2001 Nov: exams/rings/2001Nov26.md
+        - 2003 Apr: exams/rings/2003Apr.md
+        - 2003 Nov: exams/rings/2003Nov.md
+        - 2004 Nov: exams/rings/2004Nov.md
+        - 2008 Jan: exams/rings/2008Jan.md
+        - 2008 Apr: exams/rings/2008Apr.md
+        - 2008 Nov: exams/rings/2008Nov.md
     - Analysis:
       - Real:
+        - Overview: exams/real/index.md
         - 1991 Nov: exams/real/1991Nov21.md
         - 1994 Nov: exams/real/1994Nov16.md
         - 1998 Apr: exams/real/1998Apr03.md
@@ -39,8 +46,10 @@ nav:
         - 2004 Apr: exams/real/2004Apr19.md
         - 2007 Nov: exams/real/2007Nov16.md
       - Complex:
+        - Overview: exams/complex/index.md
         - 1991 Apr: exams/complex/1991Apr.md
         - 1991 Nov: exams/complex/1991Nov21.md
+        - 1994 Nov: exams/complex/1994Nov16.md
         - 1995 Apr: exams/complex/1995Apr10.md
         - 2001 Nov: exams/complex/2001Nov26.md
         - 2002 Nov: exams/complex/2002Nov20.md
