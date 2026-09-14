@@ -26,4 +26,18 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements.txt
+      # The custom domain is stored as a CNAME file at the root of the
+      # published branch, and `gh-deploy` replaces that branch with the freshly
+      # built site.  So a deploy publishes a CNAME only if the build produced
+      # one, and when none is produced GitHub sees the file disappear and
+      # clears the custom domain.  docs/CNAME is copied verbatim into the site,
+      # which is what makes it survive a deploy; this step fails the build
+      # rather than let the domain be cleared silently.
+      - name: The custom domain must be built, not only set in the Pages settings
+        run: |
+          test -f docs/CNAME || {
+            echo "docs/CNAME is missing; deploying would clear the custom domain"
+            exit 1
+          }
+          echo "custom domain: $(cat docs/CNAME)"
       - run: mkdocs gh-deploy --force
